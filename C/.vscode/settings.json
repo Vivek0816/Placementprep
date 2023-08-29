@@ -1,0 +1,7 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "*.py": "python",
+        "stdio.h": "c"
+    }
+}
