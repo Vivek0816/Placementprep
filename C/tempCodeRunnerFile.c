@@ -8,8 +8,7 @@ void merge(int a[],int mid, int l,int h)
     int i=l;
     int j=mid+1;
     int k=l;
-    int n=h+1;
-    int b[n];
+    int b[h++];
     while(i<=mid && j<=h)
     {
         if(a[i]<a[j])
@@ -31,9 +30,9 @@ void merge(int a[],int mid, int l,int h)
         b[k++]=a[j];
     }
     
-    for(int i=l;i<=h;i++)
+    for(int x=l;x<=h;x++)
     {
-        a[i]=b[i];
+        a[x]=b[x];
     }
 }
 
